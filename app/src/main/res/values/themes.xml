@@ -1,0 +1,75 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Cryypto" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/shaded_blue</item>
+        <item name="colorPrimaryVariant">@color/shaded_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/dark_blue</item>
+        <item name="colorSecondaryVariant">@color/dark_blue</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+    </style>
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <!-- Set the splash screen background, animated icon, and animation duration. -->
+        <item name="windowSplashScreenBackground">@color/dark_blue</item>
+
+        <!-- Use windowSplashScreenAnimatedIcon to add either a drawable or an
+             animated drawable. One of these is required. -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/cryptocurrency</item>
+        <!-- Required for animated icons -->
+        <item name="windowSplashScreenAnimationDuration">200</item>
+
+        <!-- Set the theme of the Activity that directly follows your splash screen. -->
+        <!-- Required -->
+        <item name="postSplashScreenTheme">@style/Theme.Cryypto</item>
+    </style>
+
+    <style name="roundedImageViewRounded">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="TextStyleRegular12">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="TextStyleRegular16" parent="TextStyleRegular12">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextStyleMedium14">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+
+    <style name="TextStyleMedium16" parent="TextStyleMedium14">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextStyleLight14">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/light_grey</item>
+        <item name="android:fontFamily">@font/poppins_light</item>
+    </style>
+
+    <style name="TextStyleLight12" parent="TextStyleLight14">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/light_grey</item>
+        <item name="android:fontFamily">@font/poppins_light</item>
+    </style>
+
+    <style name="Widget.App.BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView.Colored">
+        <item name="colorPrimary">@color/shaded_blue</item>
+        <item name="colorOnPrimary">@color/dark_blue</item>
+    </style>
+
+</resources>

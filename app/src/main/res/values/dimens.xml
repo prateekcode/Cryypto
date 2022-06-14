@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="dimen0.5">0.5dp</dimen>
+    <dimen name="dimen1">1dp</dimen>
+    <dimen name="dimen2">2dp</dimen>
+    <dimen name="dimen3">3dp</dimen>
+    <dimen name="dimen4">4dp</dimen>
+    <dimen name="dimen5">5dp</dimen>
+    <dimen name="dimen6">6dp</dimen>
+    <dimen name="dimen8">8dp</dimen>
+    <dimen name="dimen12">12dp</dimen>
+    <dimen name="dimen10">10dp</dimen>
+    <dimen name="dimen15">15dp</dimen>
+    <dimen name="dimen16">16dp</dimen>
+    <dimen name="dimen18">18dp</dimen>
+    <dimen name="dimen20">20dp</dimen>
+    <dimen name="dimen24">24dp</dimen>
+    <dimen name="dimen25">25dp</dimen>
+    <dimen name="dimen30">30dp</dimen>
+    <dimen name="dimen36">36dp</dimen>
+    <dimen name="dimen40">40dp</dimen>
+    <dimen name="dimen64">64dp</dimen>
+    <dimen name="dimen72">72dp</dimen>
+    <dimen name="dimen80">80dp</dimen>
+    <dimen name="dimen90">90dp</dimen>
+    <dimen name="dimen120">120dp</dimen>
+    <dimen name="dimen150">150dp</dimen>
+    <dimen name="dimen170">170dp</dimen>
+    <dimen name="dimen180">180dp</dimen>
+    <dimen name="dimen200">200dp</dimen>
+    <dimen name="dimen250">250dp</dimen>
+    <dimen name="dimen270">270dp</dimen>
+    <dimen name="dimen280">280dp</dimen>
+    <dimen name="dimen300">300dp</dimen>
+    <dimen name="dimen500">500dp</dimen>
+
+    <dimen name="bottom_navigation_height">64dp</dimen>
+    <dimen name="image_button_dimen_36">36dp</dimen>
+    <dimen name="image_button_dimen_24">24dp</dimen>
+    <dimen name="image_button_dimen">40dp</dimen>
+
+    <integer name="popup_window_offset">-450</integer>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coin_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/dimen12"
+    android:layout_marginTop="@dimen/dimen8"
+    android:layout_marginEnd="@dimen/dimen12"
+    app:cardCornerRadius="@dimen/dimen8"
+    app:cardElevation="@dimen/dimen12"
+    app:cardMaxElevation="@dimen/dimen16">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/iv_coin_icon"
+            android:layout_width="@dimen/dimen36"
+            android:layout_height="@dimen/dimen36"
+            android:layout_marginStart="8dp"
+            android:background="@color/white"
+            android:padding="@dimen/dimen2"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearanceOverlay="@style/roundedImageViewRounded"
+            tools:src="@tools:sample/avatars" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_coin_name"
+            style="@style/TextStyleMedium16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen12"
+            android:layout_marginTop="@dimen/dimen8"
+            app:layout_constraintStart_toEndOf="@+id/iv_coin_icon"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Bitcoin" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_coin_id"
+            style="@style/TextStyleRegular12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen8"
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/light_grey"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/tv_coin_name"
+            app:layout_constraintTop_toBottomOf="@+id/tv_coin_name"
+            tools:text="BTC" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_coin_current_price"
+            style="@style/TextStyleMedium16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_coin_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tv_coin_name"
+            tools:text="Rs58,902.12" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_coin_grow_percent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_arrow_down"
+            android:drawablePadding="@dimen/dimen2"
+            android:gravity="center"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="@+id/tv_coin_current_price"
+            app:layout_constraintTop_toBottomOf="@+id/tv_coin_current_price"
+            tools:text="2.55%" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

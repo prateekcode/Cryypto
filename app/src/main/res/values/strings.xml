@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Cryypto</string>
+
+    <string name="price_placeholder">₹ %1$s</string>
+    <string name="market_share_percent_placeholder">%1$s"%"</string>
+
+    <string name="market">Market</string>
+    <string name="favorite">Favorite</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="current_buy_price">Current Buy Price</string>
+
+    <!-- Home Detail -->
+    <string name="all_coins">All</string>
+    <string name="top_gainers">Top Gainer</string>
+    <string name="top_looser">Top Looser</string>
+
+    <string-array name="home_feed_tabs">
+        <item name="all_coins">All</item>
+        <item name="top_gainer">Top Gainer</item>
+        <item name="top_looser">Top Looser</item>
+    </string-array>
+
+    <!-- Coin Detail -->
+    <string name="one_day_highest">1D Highest</string>
+    <string name="one_day_lowest">1D Lowest</string>
+    <string name="one_day">Today</string>
+    <string name="one_week">Last 7 Days</string>
+    <string name="one_month">Last 1 Month</string>
+    <string name="one_year">Last 1 Year</string>
+
+    <string name="about_coin">About %1$s</string>
+    <string name="market_rank">Market Rank</string>
+    <string name="coin_rank_placeholder">"#"%1$s</string>
+
+    <string name="market_cap">Market Cap</string>
+    <string name="coin_status">Coin Status</string>
+    <string name="circulating_supply">Circulating Supply</string>
+    <string name="maximum_supply">Maximum Supply</string>
+    <string name="price_change">Price Change(24h)</string>
+    <string name="volume_change">Volume Change(24h)</string>
+    <string name="about_neo">About NEO</string>
+    <string name="error_occur">Error Occur!</string>
+    <string name="retry">Retry</string>
+    <string name="application_error">Application causes unexceptional error. Please try again! Keep trying until you get the proper data! Sorry for the inconvenience</string>
+    <string name="no_internet">No Internet Available, Please Connect your device with Internet!</string>
+
+    <string name="coin_saved">Coin has been added to Favorite!</string>
+    <string name="coin_removed">Coin removed from the Favorite!</string>
+</resources>

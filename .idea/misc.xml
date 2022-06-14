@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/chart_fade_green.xml" value="0.1495" />
+        <entry key="app/src/main/res/drawable-v24/chart_fade_red.xml" value="0.1495" />
+        <entry key="app/src/main/res/drawable/chart_fade_green.xml" value="0.1495" />
+        <entry key="app/src/main/res/drawable/chart_fade_red.xml" value="0.1495" />
+        <entry key="app/src/main/res/drawable/chart_marker_bkg.xml" value="0.1495" />
+        <entry key="app/src/main/res/drawable/coin_storke.xml" value="0.1495" />
+        <entry key="app/src/main/res/drawable/ic_arrow_down.xml" value="0.1495" />
+        <entry key="app/src/main/res/drawable/ic_favorite_border.xml" value="0.1495" />
+        <entry key="app/src/main/res/drawable/ic_trending_down.xml" value="0.1495" />
+        <entry key="app/src/main/res/drawable/ic_trending_up.xml" value="0.1495" />
+        <entry key="app/src/main/res/drawable/icon_stroke.xml" value="0.1495" />
+        <entry key="app/src/main/res/drawable/shimmer_circular_view.xml" value="0.1495" />
+        <entry key="app/src/main/res/drawable/shimmer_rectangular_view.xml" value="0.1495" />
+        <entry key="app/src/main/res/layout/activity_coin_detail.xml" value="0.27790069580078125" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.24166666666666667" />
+        <entry key="app/src/main/res/layout/custom_chart_view.xml" value="0.240625" />
+        <entry key="app/src/main/res/layout/fragment_all.xml" value="0.24166666666666667" />
+        <entry key="app/src/main/res/layout/fragment_day_one_chart.xml" value="0.24166666666666667" />
+        <entry key="app/src/main/res/layout/fragment_favorite.xml" value="0.24166666666666667" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="1.5" />
+        <entry key="app/src/main/res/layout/fragment_market.xml" value="0.24166666666666667" />
+        <entry key="app/src/main/res/layout/fragment_top_gainer.xml" value="0.24166666666666667" />
+        <entry key="app/src/main/res/layout/fragment_top_loosers.xml" value="0.24166666666666667" />
+        <entry key="app/src/main/res/layout/item_crypto.xml" value="0.4521276595744681" />
+        <entry key="app/src/main/res/layout/item_shimmer.xml" value="0.4070274466898903" />
+        <entry key="app/src/main/res/layout/layout_about_coin.xml" value="0.45" />
+        <entry key="app/src/main/res/layout/layout_coin_detail.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/layout_common.xml" value="0.24166666666666667" />
+        <entry key="app/src/main/res/layout/layout_error_handling.xml" value="0.24166666666666667" />
+        <entry key="app/src/main/res/layout/shimmer_placeholder.xml" value="0.240625" />
+        <entry key="app/src/main/res/menu/home_bottom_menu.xml" value="0.24166666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="1.5" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

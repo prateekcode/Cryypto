@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/dimen16"
+    android:background="@drawable/coin_storke"
+    android:padding="@dimen/dimen8">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_error_title"
+        style="@style/TextStyleMedium16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen8"
+        android:text="@string/error_occur"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_error_message"
+        style="@style/TextStyleRegular12"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen8"
+        android:layout_marginEnd="@dimen/dimen8"
+        android:text="@string/application_error"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_error_title" />
+
+    <Button
+        android:id="@+id/btn_retry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen16"
+        android:text="@string/retry"
+        app:layout_constraintEnd_toEndOf="@+id/tv_error_message"
+        app:layout_constraintStart_toStartOf="@+id/tv_error_message"
+        app:layout_constraintTop_toBottomOf="@+id/tv_error_message" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
