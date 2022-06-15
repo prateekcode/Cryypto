@@ -74,10 +74,17 @@ class AllFragment : BaseFragment() {
                 }
                 loadState.append is LoadState.Loading -> {
                     binding.apply {
+                        shimmerContainer.show()
+                        shimmerContainer.startShimmer()
+                        allCoins.rvCoinList.hide()
+                        errorLayout.root.hide()
+                    }
+                }
+                loadState.append is LoadState.NotLoading -> {
+                    binding.apply {
                         shimmerContainer.hide()
                         shimmerContainer.stopShimmer()
                         allCoins.rvCoinList.show()
-                        errorLayout.root.hide()
                     }
                 }
                 loadState.refresh is LoadState.Error -> {

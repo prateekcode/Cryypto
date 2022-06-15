@@ -22,7 +22,6 @@ android {
         buildConfigField "String", "API_KEY", NOMICS_API_KEY
         buildConfigField "String", "REQUESTLY_SDK_KEY", REQUESTLY_SDK_KEY
         buildConfigField "String", "CRYPTO_COMPARE_BASE_URL", CRYPTO_COMPARE_BASE_URL
-        buildConfigField "String", "CRYPTO_COMPARE_V1_BASE_URL", CRYPTO_COMPARE_V1_BASE_URL
     }
 
     buildTypes {
